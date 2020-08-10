@@ -3,17 +3,17 @@ function wakeDog(dogName, dogBreed){
 }
 
 function leashDog(dogName, dogBreed){
-  console.log(`Leash ${dogName} the ${dogBreed}`);
+  `Leash ${dogName} the ${dogBreed}`
 }
 function walkToPark(dogName, dogBreed){
-  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  `Walk to the park with ${dogName} the ${dogBreed}`
 }
 function throwFrisbee(dogName, dogBreed){
-  console.log(`Throw the frisbee ${dogName} the ${dogBreed}`);
+  `Throw the frisbee ${dogName} the ${dogBreed}`
 }
 function walkHome(dogName, dogBreed){
-  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  `Walk home with ${dogName} the ${dogBreed}`
 }
 function unleashDog(dogName, dogBreed){
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  `Unleash ${dogName} the ${dogBreed}`
 }
