@@ -24,4 +24,5 @@ function exerciseDog(dogName, dogBreed){
   for(let action in routine){
     messages.push(action(dogName, dogBreed))
   }
+  return messages
 }
