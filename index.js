@@ -18,6 +18,7 @@ function unleashDog(dogName, dogBreed){
   return `Unleash ${dogName} the ${dogBreed}`
 }
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+
 function exerciseDog(dogName, dogBreed){
-  
+    
 }
