@@ -21,7 +21,7 @@ let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(dogName, dogBreed){
   let messages = []
-  for(let action in routine){
+  for(let action of routine){
     messages.push(action(dogName, dogBreed))
   }
   return messages
