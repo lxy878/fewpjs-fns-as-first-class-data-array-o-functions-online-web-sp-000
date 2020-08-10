@@ -20,6 +20,7 @@ function unleashDog(dogName, dogBreed){
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(dogName, dogBreed){
+  let messages = []
   for(let action in routine){
     action(dogName, dogBreed)
   }
